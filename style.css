@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Source Code Pro", monospace;
+  background: url("image/background.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #78350f;
+}
+.header {
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+  background-color: beige;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.container textarea {
+  background-color: beige;
+  width: 80%;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: #78350f;
+}
+.btn {
+  margin: 0rem 1rem;
+  padding: 1rem;
+  background-color: beige;
+  font-family: "Source Code Pro", monospace;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  color: #78350f;
+}
+.container p {
+  margin: 0.5rem 1rem;
+  color: beige;
+}
+.outputText {
+  background-color: beige;
+  margin: 0rem 1rem;
+  border: solid 1px black;
+  width: 83%;
+  height: 5rem;
+  overflow: scroll;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+.footer {
+  background-color: beige;
+  height: 23vh;
+  margin-top: 10vh;
+  text-align: center;
+}
+.footer p {
+  color: #78350f;
+  padding: 0.4rem 1rem;
+  margin: 0;
+  font-size: 1.1rem;
+}
+.footer h3 {
+  margin-block-end: 0em;
+}
